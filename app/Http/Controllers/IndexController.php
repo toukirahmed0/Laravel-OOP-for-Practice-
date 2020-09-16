@@ -23,6 +23,12 @@ class IndexController extends Controller
     public function about()
     {
         return view('about');
+    }    
+    
+    // display hello page
+    public function hello()
+    {
+        return view('hello');
     }
 
     /**

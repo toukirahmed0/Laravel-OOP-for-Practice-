@@ -18,3 +18,6 @@ Route::get('/', 'App\Http\Controllers\IndexController@index');
 Route::get('/about', 'App\Http\Controllers\IndexController@about');
 
 
+Route::get('/hello', 'App\Http\Controllers\IndexController@hello');
+
+
